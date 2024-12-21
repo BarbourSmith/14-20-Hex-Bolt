@@ -1,13 +1,306 @@
 {
     "atomType": "Molecule",
-    "name": "14-20 Hex Bolt",
+    "name": "14-20-Hex-Bolt",
     "x": 0,
     "y": 0,
     "uniqueID": 1734742147697,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1734742158471,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Cone",
+            "x": 0.30026455026455023,
+            "y": 0.5264623955431754,
+            "uniqueID": 1734742169047,
+            "ioValues": [
+                {
+                    "name": "Min",
+                    "ioValue": 0.1
+                },
+                {
+                    "name": "Max",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Angle",
+                    "ioValue": 83
+                }
+            ],
+            "description": "Project imported from GitHub",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1734742168704,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1734742169126
+                        }
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Min",
+                    "x": 0.04,
+                    "y": 0.31197771587743733,
+                    "uniqueID": 1734742169231,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Max",
+                    "x": 0.04,
+                    "y": 0.5236768802228412,
+                    "uniqueID": 1734742168510,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Angle",
+                    "x": 0.04,
+                    "y": 0.6740947075208913,
+                    "uniqueID": 1734742169150,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.17923280423280424,
+                    "y": 0.5515320334261838,
+                    "uniqueID": 1734742169357,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.1607142857142857,
+                    "y": 0.30919220055710306,
+                    "uniqueID": 1734742168973,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 0.1
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.30158730158730157,
+                    "y": 0.23119777158774377,
+                    "uniqueID": 1734742169014,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1734742168973
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 4.34
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Loft",
+                    "name": "Loft",
+                    "x": 0.43187830687830686,
+                    "y": 0.42896935933147634,
+                    "uniqueID": 1734742169126,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 1734742169357
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 1734742169014
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 1734742169357
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 1734742169014
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Joins two or more shapes into a single solid by filling in the space between them. Also called 'hull'",
+                    "closedSelection": 0
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "L*math.Tan(A)",
+                    "x": 0.3062169312169312,
+                    "y": 0.7520891364902507,
+                    "uniqueID": 1734742169445,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "m",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "a",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "t",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "h",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "n",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "A",
+                            "ioValue": 1
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "L*math.Tan(A)"
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.208994708994709,
+                    "y": 0.83008356545961,
+                    "uniqueID": 1734742168650,
+                    "ioValues": [
+                        {
+                            "name": "input1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Defines a Replicad code block.",
+                    "codeVersion": 1,
+                    "code": "//Inputs:[input1, height];\n\nlet shape = drawRectangle(5,7)\n\nconst newPlane = new Plane().pivot(0, 'Y');\n\n return { geometry: [shape.sketchOnPlane(newPlane).extrude(7)], tags: [],\n      color: '#A3CE5B',\n      plane: newPlane}\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return 25;\n\n      - See more examples at _______ \n\n\n    */\n"
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1734742169231,
+                    "ap2ID": 1734742168973
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1734742168510,
+                    "ap2ID": 1734742169357
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1734742169357,
+                    "ap2ID": 1734742169126
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1734742168973,
+                    "ap2ID": 1734742169014
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1734742169014,
+                    "ap2ID": 1734742169126
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1734742169126,
+                    "ap2ID": 1734742168704
+                }
+            ],
+            "parentRepo": {
+                "lastFoundGit": "2024-12-20T15:47:14.570Z",
+                "repoName": "Cone",
+                "dateCreated": "2024-07-13T00:32:21Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Cone/master/README.md?sanitize=true",
+                "yyyy": 2024,
+                "topMoleculeID": 828039015,
+                "topics": [
+                    "testing_Aws"
+                ],
+                "forks": 0,
+                "dateModified": "09/20/2024",
+                "ranking": 1,
+                "searchField": "cone barboursmith",
+                "owner": "BarbourSmith",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Cone/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Cone/master/project.svg?sanitize=true"
+            },
+            "unitsKey": "MM",
+            "fileTypeVersion": 1,
+            "compiledBom": []
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
