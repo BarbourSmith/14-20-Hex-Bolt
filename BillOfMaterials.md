@@ -2,6 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
-
- 3xCOG MSRP: $0.00
+|10mm 1/2 20 bolt|1|$0.50||
+|Total: |1|$0.50| |
