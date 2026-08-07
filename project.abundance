@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Length",
-      "ioValue": 10
+      "ioValue": 40,
+      "currentEquation": "40"
     }
   ],
   "topLevel": true,
@@ -56,7 +57,7 @@
         },
         {
           "name": "height",
-          "ioValue": -10
+          "ioValue": -40
         }
       ]
     },
@@ -69,7 +70,7 @@
       "ioValues": [
         {
           "name": "L",
-          "ioValue": 10
+          "ioValue": 40
         }
       ],
       "currentEquation": "-1*L"
@@ -144,7 +145,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-circle-3.18-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10",
+            "geometry": "extrude-circle-3.18-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--40",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -197,7 +198,7 @@
         },
         {
           "name": "Item Name",
-          "ioValue": "10mm 1/2 20 bolt",
+          "ioValue": "40mm 1/4 20 bolt",
           "currentEquation": "New Item"
         },
         {
@@ -214,7 +215,7 @@
         }
       ],
       "BOMitem": {
-        "BOMitemName": "10mm 1/2 20 bolt",
+        "BOMitemName": "40mm 1/4 20 bolt",
         "numberNeeded": 1,
         "costUSD": 0.5,
         "source": ""
@@ -222,17 +223,17 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6421957671957672,
-      "y": 0.8328690807799443,
+      "x": 0.6507936507936508,
+      "y": 0.8467966573816156,
       "uniqueID": "id-80",
-      "name": "x + \"mm 1/2 20 bolt\"",
+      "name": "x + \"mm 1/4 20 bolt\"",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 10
+          "ioValue": 40
         }
       ],
-      "currentEquation": "x + \"mm 1/2 20 bolt\""
+      "currentEquation": "x + \"mm 1/4 20 bolt\""
     }
   ],
   "allConnectors": [
